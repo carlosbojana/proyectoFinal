@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Description -->
+    <meta name="description" content="TenisLab es una tienda deportiva especializada en Tenis y Pádel, fundada en el año 2022, para responder a la demanda de los diferentes productos y servicios del rubro.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="tenis, pádel, raqueta, paleta, pelota, encordado, grip, antivibrador, mochila, raquetero, babolat, wilson, head, yonex, varlion">
+    <!-- Meta Author -->
+    <meta name="author" content="Carlos Bojana">
+    <!-- Meta Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TenisLab - Todo el Tenis y el Pádel en un solo lugar ">
+    <meta property="og:description" content="Tienda deportiva especializada en Tenis y Pádel. Contamos con una amplia variedad de productos de primera línea y el mejor servicio de encordado.">    
+    <meta property="og:image" itemprop="image" content="https://i.ibb.co/0sNcNNQ/og-image.jpg">
+    <meta property="og:url" content="https://tenislab.000webhostapp.com/">
+    <meta property="og:site_name" content="TenisLab">
+    <meta property="og:locale" content="es_ES">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://i.ibb.co/WxGrszq/tenislab.jpg" type="image/x-icon">
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- CSS Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- CSS Animate -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>TenisLab | Todo el Tenis y el Pádel en un solo lugar</title>
+</head>
+<body id="go-top">
+    <!-- Inicio menú de navegación del sitio web -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid mt-3 mb-3">
+            <a class="navbar-brand" href="../index.html">
+                <img src="https://i.ibb.co/WxGrszq/tenislab.jpg" alt="Logo TenisLab" title="TenisLab" class="nav-logo" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="sobrenosotros.html">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link active" href="productosyservicios.html">PRODUCTOS Y SERVICIOS</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="promociones.html">PROMOCIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex px-lg-2">
+                    <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <form class="d-flex px-lg-2">
+                    <button class="btn btn-outline-dark my-lg-0 mt-4 w-100" type="button">
+                        <i class="fas fa-shopping-cart me-1"></i>
+                        Carrito
+                        <span class="badge bg-primary text-white ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+                <form class="d-flex px-lg-2">
+                    <button class="btn btn-outline-dark my-lg-0 mt-4 w-100" type="button" data-bs-toggle="modal" data-bs-target="#modalForm">
+                        <i class="fas fa-user"></i>
+                        Inicia Sesión
+                    </button>
+                    <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="usuario" class="form-label">Usuario</label>
+                                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Tu usuario">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contraseña" class="form-label">Contraseña</label>
+                                            <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Tu contraseña">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <label for="recordarme" class="form-check-label">Recordarme</label>
+                                            <input type="checkbox" name="acepta" value="1" class="form-check-input bg-primary" id="recordarme">
+                                        </div>
+                                        <div class="modal-footer d-block">
+                                            <a href="#" class="text-dark text-decoration-none float-start">¿Olvidaste tu contraseña?</a>
+                                            <button type="submit" class="btn btn-outline-dark float-end">Iniciar Sesión</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registrate</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="usuario" class="form-label">Usuario</label>
+                                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Tu usuario">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Correo Electrónico</label>
+                                            <input type="text" class="form-control" id="email" name="email" placeholder="Tu correo electrónico">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contraseña" class="form-label">Contraseña</label>
+                                            <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Tu contraseña">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contraseña" class="form-label">Confirma Contraseña</label>
+                                            <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Tu contraseña">
+                                        </div>
+                                        <div class="modal-footer d-block">
+                                            <button type="submit" class="btn btn-outline-dark float-end">Registrate</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin menú de navegación del sitio web -->
+    <!-- Inicio encabezado del sitio web -->
+    <header>
+        <h1 class="display-5 fw-bolder text-white mb-5">Productos y Servicios</h1>
+    </header>
+    <!-- Fin encabezado del sitio web -->
+    <!-- Inicio del contenido -->
+    <h4 class="text-center">A continuación se listan los productos disponibles. Si no encontrás lo que buscas, escribinos <a href="contacto.html" class="text-dark text-decoration-none">aquí</a> y pronto nos pondremos en contacto</h4>
+    <section class="py-3">
+        <div class="my-3 container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/pJ0pBF9/raqueta-babolat-boost-drive-102.jpg" alt="Raqueta Babolat Boost Drive 102" title="Raqueta Babolat Boost Drive 102" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA BABOLAT BOOST DRIVE 102</h5>
+                                $165.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/X2yrdNQ/raqueta-babolat-boost-aero-102.jpg" alt="Raqueta Babolat Boost Aero 102" title="Raqueta Babolat Boost Aero 102" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA BABOLAT BOOST AERO 102</h5>
+                                $165.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/hySv60r/raqueta-head-graphene-xt-s.jpg" alt="Raqueta Head Graphene XT S" title="Raqueta Head Graphene XT S" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA HEAD GRAPHENE XT S</h5>
+                                $239.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/dMBwb2L/raqueta-head-radical-youtek-ig-mp.jpg" alt="Raqueta Head Radical Youtek IG MP" title="Raqueta Head Radical Youtek IG MP" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA HEAD RADICAL YOUTEK IG MP</h5>
+                                $209.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/HTRNwJh/raqueta-wilson-clash-100-roland-garros.jpg" alt="Raqueta Wilson Clash 100 Roland Garros" title="Raqueta Wilson Clash 100 Roland Garros" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA WILSON CLASH 100 ROLAND GARROS</h5>
+                                $344.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/3r74qmV/raqueta-wilson-blade-v7.jpg" alt="Raqueta Wilson Blade V7" title="Raqueta Wilson Blade V7" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA WILSON BLADE V7</h5>
+                                $359.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/YWt4t20/raqueta-yonex-ezone-98-2020.jpg" alt="Raqueta Yonex Ezone 98 2020" title="Raqueta Yonex Ezone 98 2020" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA YONEX EZONE 98 2020</h5>
+                                $315.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/YWt4t20/raqueta-yonex-ezone-98-2020.jpg" alt="Raqueta Yonex Ezone 98 2020" title="Raqueta Yonex Ezone 98 2020" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETA YONEX EZONE 100 2020</h5>
+                                $315.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/qDpcBvF/paleta-babolat-air-veron-2021.jpg" alt="Paleta Babolat Air Veron 2021" title="Paleta Babolat Air Veron 2021" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">PALETA BABOLAT AIR VERON 2021</h5>
+                                $339.60
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/313cvjj/paleta-babolat-technical-viper-2021.jpg" alt="Paleta Babolat Technical Viper 2021" title="Paleta Babolat Technical Viper 2021" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">PALETA BABOLAT TECHNICAL VIPER 2021</h5>
+                                $439.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/pbR2tHd/paleta-adidas-adipower-30-seba-nerone-2021.jpg" alt="Paleta Adidas Adipower 3.0 Seba Nerone 2021" title="Paleta Adidas Adipower 3.0 Seba Nerone 2021" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">PALETA ADIDAS ADIPOWER 3.0 SEBA NERONE 2021</h5>
+                                $569.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/SyBYhB4/paleta-adidas-drive-30.jpg" alt="Paleta Adidas Drive 3.0" title="Paleta Adidas Drive 3.0" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">PALETA ADIDAS DRIVE 3.0</h5>
+                                $279.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/b73WdnD/paleta-varlion-canon-difusor-black-20.jpg" alt="Paleta Varlion Cañon Difusor Black 2.0" title="Paleta Varlion Cañon Difusor Black 2.0" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">PALETA VARLION CAÑON DIFUSOR BLACK 2.0</h5>
+                                $359.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/g7Q5fbn/paleta-varlion-bourne-88-2020.jpg" alt="Paleta Varlion Bourne 8.8 2020" title="Paleta Varlion Bourne 8.8 2020" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">PALETA VARLION BOURNE 8.8 2020</h5>
+                                $205.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/KNQtB0n/raquetero-head-djokovik-9r-supercombi.jpg" alt="Raquetero Head Djokovic" title="Raquetero Head Djokovic" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETERO HEAD DJOKOVIC</h5>
+                                $199.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/2nv2tCT/raquetero-babolat-strike-rh12.jpg" alt="Raquetero Babolat Strike" title="Raquetero Babolat Strike" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETERO BABOLAT STRIKE</h5>
+                                $249.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/ZVGWsZr/raquetero-wilson-blade-3-comp.jpg" alt="Raquetero Wilson Blade" title="Raquetero Wilson Blade" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">RAQUETERO WILSON BLADE</h5>
+                                $239.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/6sBxZh1/mochila-head-djokovic.jpg" alt="Mochila Head Djokovic" title="Mochila Head Djokovic" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">MOCHILA HEAD DJOKOVIC</h5>
+                                $119.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/VNWb4Z8/mochila-wilson-red-tour.jpg" alt="Mochila Wilson Red Tour" title="Mochila Wilson Red Tour" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">MOCHILA WILSON RED TOUR</h5>
+                                $189.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/zfPZ1jK/mochila-wilson-minions.jpg" alt="Mochila Wilson Minions" title="Mochila Wilson Minions" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">MOCHILA WILSON MINIONS</h5>
+                                $169.90
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/1z5QM7Q/tubo-pelotas-head-tour.jpg" alt="Tubo Pelotas Head Tour" title="Tubo Pelotas Head Tour" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">TUBO DE PELOTAS HEAD TOUR X4</h5>
+                                $23.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/qMHyLSW/wilson-pelotas-tenis-tubo-x-3-roland-garros.jpg" alt="Tubo Pelotas Wilson Roland Garros All Court" title="Tubo Pelotas Wilson Roland Garros All Court" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">TUBO DE PELOTAS WILSON ROLAND GARROS ALL COURT X3</h5>
+                                $17.00
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/VBpV84j/anti-head.jpg" alt="Antivibrador Head" title="Antivibrador Head" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">ANTIVIBRADOR HEAD LOGO X1</h5>
+                                $300
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/zf5gLtb/anti-yonex.jpg" alt="Antivibrador Yonex" title="Antivibrador Yonex" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">ANTIVIBRADOR YONEX LOGO X1</h5>
+                                $450
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/K0cnyXs/grip-babolat-wofer.jpg" alt="Grip Babolat Wofer" title="Grip Babolat Wofer" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">GRIP BABOLAT WOFER X1</h5>
+                                $1.400
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <img class="card-img-top" src="https://i.ibb.co/ch6HvYn/grip-head.jpg" alt="Grip Head Dual Absorbing" title="Grip Head Dual Absorbing" loading="lazy">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">GRIP HEAD DUAL ABSORBING X1</h5>
+                                $1.200
+                            </div>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- Inicio anuncio tienda online -->
+    <aside class="pb-3 wow animate__animated animate__zoomIn">
+        <div class="container px-5 my-3">
+            <div class="bg-primary rounded-3 p-4 p-sm-4 mt-3">
+                <p class="text-white mb-4 mx-5 mb-xl-0 fs-4 fw-bolder mb-3 pb-3 text-center">Próximamente Tienda Online!!!</p>
+                <p class="text-white mb-4 mx-5 mb-xl-0 fs-5 fw-bold mb-3 text-center">Estamos trabajando para ofrecerte la mejor experiencia de compra. Podrás adquirir nuestros productos desde cualquier punto del país sin moverte de tu casa.</p>
+            </div>
+        </div>
+    </aside>
+    <!-- Fin anuncio tienda online -->
+    <!-- Inicio de pie de página -->
+    <footer class="text-center text-lg-start bg-light color-text">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block align-self-center">
+                <span>Visítanos en nuestras redes sociales:</span>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/TenisLab-1454268848037093/" class="me-4 text-reset fs-2"><i class="fab fa-facebook-square footer-logos"></i></a>
+                <a href="https://www.instagram.com/tenis.lab/?hl=es" class="me-4 text-reset fs-2"><i class="fab fa-instagram-square footer-logos"></i></a>
+            </div>
+        </section>
+        <section class="container text-center text-md-start mt-4">
+            <div class="row mt-3">
+                <div class="col-md-4 col-lg-5 col-xl-4 mx-auto mb-3">
+                    <h6 class="text-uppercase fw-bold mb-4">Información</h6>
+                    <p><i class="fas fa-home me-3"></i> 14584 S Siltstone Rd, Herriman, UT 84096</p>
+                    <p><i class="fas fa-phone me-3"></i> +1 805 954 5784</p>
+                    <p><i class="fas fa-truck me-3"></i></i> Envíos a todo el país</p>
+                </div>
+                <div class="col-md-4 col-lg-2 col-xl-4 mx-auto mb-3 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d337.3983750263822!2d-64.11561428800029!3d-32.17774193600193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd6f24cc9b6e75%3A0xf31e908957e0133!2zUsOtbyBUZXJjZXJvLCBDw7NyZG9iYQ!5e1!3m2!1ses-419!2sar!4v1622466747814!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" class="footer-map img-thumbnail"></iframe>
+                </div>
+                <div class="col-md-4 col-lg-5 col-xl-4 mx-auto mb-md-0 mb-3">
+                    <h6 class="text-uppercase fw-bold mb-4">Medios de Pago</h6>
+                    <p><i class="fas fa-money-bill-alt me-3"></i> Efectivo</p>
+                    <p><i class="fas fa-credit-card me-3"></i> Tarjetas de Crédito y Débito</p>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            2022 &#169; TenisLab. Todos los derechos reservados.
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=+5493571685401&text=Hola!%20Hacenos%20tu%20consulta%20y%20a%20la%20brevedad%20te%20contactamos!" class="float" target="_blank">
+                <i class="fab fa-whatsapp my-float"></i>
+        </a>
+    </footer>
+    <!-- Fin de pie de página -->
+    <!-- Botón ir arriba -->
+    <a class="go-top-btn rounded" href="#go-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- WOW.js -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <!-- JS Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

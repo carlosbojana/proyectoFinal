@@ -1,0 +1,11 @@
+/* Propiedades de botones*/
+.btn-outline-dark {
+    color: $text-color;
+    background-color: none;
+    border-color: $bg-color;
+        &:hover {
+            color: white;
+            background-color: $bg-color;
+            border-color: $bg-color;
+        }
+}

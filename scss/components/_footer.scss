@@ -1,0 +1,42 @@
+/* Propiedades del pie de página de las secciones */
+footer {
+    background-image: $bg-img-color;
+    .footer-map {
+        width: 300px;
+        height: 150px;
+        border: 0; 
+        margin-top: 10px;
+    }
+    .footer-logos {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        transition: transform 0.5s ease;
+            &:hover {
+                @include prefijos (scale(1.25, 1.25));
+            }
+    }
+    .border-bottom {
+        border-bottom: 1px solid #3D3E40 !important;
+    }
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 57px;
+        bottom: 75px;
+        right: 10px;
+        padding-top: 3px;
+        background-color: #01B32B;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 34px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 6;
+    }
+    @media (max-width: 576px) {
+        .float {
+            transform: scale(0.75);
+        }
+    }
+}
