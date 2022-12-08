@@ -1,0 +1,49 @@
+/* Propiedades del menú de navegación de las secciones */
+nav {
+    background-image: $bg-img-color;
+    .nav-logo {
+        border-radius: $radius;
+        width: 125px;
+        height: 125px;
+        margin: 20px;
+        transition: transform 0.5s ease;
+            &:hover {
+                @include prefijos (scale(1.25, 1.25));
+            }
+    }
+    .nav-link {
+        color: $text-color;
+        border-radius: $radius*0.1;
+        transition: background-color 2s ease;
+            &:hover {
+                color: $text-color-hover !important;
+                background-color: $bg-color;
+            }
+    }
+    .form-control:focus, .form-check-input:focus, .form-check-input:checked {
+        border-color: $form-color;
+        box-shadow: 0 0px 0px $form-color inset, 0 0 5px $form-color;
+        }
+    .bg-primary {
+        background-color: $bg-color !important;
+    }
+    .active {
+        color: white !important;
+    }
+    @media (max-width: 576px) {
+        .nav-logo {
+            transform: scale(0.75);
+                &:hover {
+                    @include prefijos (scale(1.05, 1.05));
+                }
+        }
+        .modal {
+            transform: scale(0.85);
+        }
+    }
+    @media (max-width: 1800px) {
+        .nav-link {
+            font-size: 0.95rem;
+        }
+    }
+}

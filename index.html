@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Description -->
+    <meta name="description" content="TenisLab es una tienda deportiva especializada en Tenis y Pádel, fundada en el año 2022, para responder a la demanda de los diferentes productos y servicios del rubro.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="tenis, pádel, raqueta, paleta, pelota, encordado, grip, antivibrador, mochila, raquetero, babolat, wilson, head, yonex, varlion">
+    <!-- Meta Author -->
+    <meta name="author" content="Carlos Bojana">
+    <!-- Meta Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TenisLab - Todo el Tenis y el Pádel en un solo lugar ">
+    <meta property="og:description" content="Tienda deportiva especializada en Tenis y Pádel. Contamos con una amplia variedad de productos de primera línea y el mejor servicio de encordado.">
+    <meta property="og:image" itemprop="image" content="https://i.ibb.co/0sNcNNQ/og-image.jpg">
+    <meta property="og:url" content="https://tenislab.000webhostapp.com/">
+    <meta property="og:site_name" content="TenisLab">
+    <meta property="og:locale" content="es_ES">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://i.ibb.co/WxGrszq/tenislab.jpg" type="image/x-icon">
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- CSS Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- CSS Animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>TenisLab | Todo el Tenis y el Pádel en un solo lugar</title>
+</head>
+<body id="go-top">
+    <!-- Inicio menú de navegación del sitio web -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid mt-3 mb-3">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.ibb.co/WxGrszq/tenislab.jpg" alt="Logo TenisLab" title="TenisLab" class="nav-logo" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="pages/sobrenosotros.html">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="pages/productosyservicios.html">PRODUCTOS Y SERVICIOS</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="pages/promociones.html">PROMOCIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex px-lg-2">
+                    <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <form class="d-flex px-lg-2">
+                    <button class="btn btn-outline-dark my-lg-0 mt-4 w-100" type="button">
+                        <i class="fas fa-shopping-cart me-1"></i>
+                        Carrito
+                        <span class="badge bg-primary text-white ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+                <form class="d-flex px-lg-2">
+                    <button class="btn btn-outline-dark my-lg-0 mt-4 w-100" type="button" data-bs-toggle="modal" data-bs-target="#modalForm">
+                        <i class="fas fa-user"></i>
+                        Inicia Sesión
+                    </button>
+                    <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="usuario" class="form-label">Usuario</label>
+                                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Tu usuario">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contraseña" class="form-label">Contraseña</label>
+                                            <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Tu contraseña">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <label for="recordarme" class="form-check-label">Recordarme</label>
+                                            <input type="checkbox" name="acepta" value="1" class="form-check-input bg-primary" id="recordarme">
+                                        </div>
+                                        <div class="modal-footer d-block">
+                                            <a href="#" class="text-dark text-decoration-none float-start">¿Olvidaste tu contraseña?</a>
+                                            <button type="submit" class="btn btn-outline-dark float-end">Iniciar Sesión</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registrate</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="usuario" class="form-label">Usuario</label>
+                                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Tu usuario">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Correo Electrónico</label>
+                                            <input type="text" class="form-control" id="email" name="email" placeholder="Tu correo electrónico">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contraseña" class="form-label">Contraseña</label>
+                                            <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Tu contraseña">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contraseña" class="form-label">Confirma Contraseña</label>
+                                            <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Tu contraseña">
+                                        </div>
+                                        <div class="modal-footer d-block">
+                                            <button type="submit" class="btn btn-outline-dark float-end">Registrate</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin menú de navegación del sitio web -->
+    <!-- Inicio encabezado del sitio web -->
+    <header class="bg-dark">
+        <h1 class="display-5 fw-bolder text-white mb-5">TenisLab</h1>
+        <!-- Inicio de carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://i.ibb.co/fXXvqDH/slide-01.jpg" class="d-block w-100" alt="Pelota" title="Pelota" loading="lazy">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ibb.co/88zPjfY/slide-02.jpg" class="d-block w-100" alt="Tenis" title="Tenis" loading="lazy">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ibb.co/wzVXJBp/slide-03.jpg" class="d-block w-100" alt="Pelota Polvo de Ladrillo" title="Pelota Polvo de Ladrillo" loading="lazy">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ibb.co/vHp4bRX/slide-04.jpg" class="d-block w-100" alt="Padel" title="Padel" loading="lazy">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Fin de carrusel -->
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center">
+                <div class="my-5 text-center text-xl-center">
+                    <p class="lead fs-4 fw-normal text-white-50 mb-4">Todo el Tenis y el Pádel en un solo lugar</p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
+                        <a class="btn btn-outline-dark btn-lg px-4 me-sm-3" href="#conocenos">¡Conócenos!</a>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fin encabezado del sitio web -->
+    <!-- Inicio de presentación-->
+    <section class="py-3 mt-4" id="conocenos">
+        <div class="container card card-body px-5 my-3">
+            <div class="row gx-5 lead fw-normal">
+                <div class="col-12 col-md-6 align-self-center">
+                    <h4 class="fw-bolder">¿Quiénes somos?</h4>
+                    <p class="fs-6 justify">Somos una tienda deportiva especializada en Tenis y Pádel. Fundada en el año 2022 para responder a la demanda por parte de la gente de la ciudad respecto de diferentes productos y servicios del rubro.</p>
+                    <p class="fs-6 justify">Contamos con una amplia variedad de productos de diversas marcas de primera línea. Además tenemos el mejor servicio de encordado personalizado.</p>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-content-center">
+                    <img src="https://i.ibb.co/d6hr0bK/tienda.jpg" alt="Tienda física TenisLab" title="Tienda física TenisLab" class="rounded" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de presentación -->
+    <!-- Inicio de secciones -->
+    <section class="py-3">
+        <div class="container card card-body px-5 my-3">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <h4 class="fw-bolder">¿Qué ofrecemos?</h4>
+                        <p class="lead fw-normal fs-6 mb-5">Ingresá en las siguientes secciones para más información!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <a href="pages/productosyservicios.html">
+                            <img class="card-img-top seccion-img" src="https://i.ibb.co/DrTxCKr/tenisypadel.png" alt="Productos" title="Productos" loading="lazy">
+                        </a>
+                        <div class="card-body p-4">
+                            <h5 class="mb-3">Productos</h5>
+                            <p class="fs-6 mb-0 justify">Te ofrecemos productos de primeras marcas como Yonex, Head, Babolat, Wilson, Adidas, Luxilon, Solinco a precios increíbles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <a href="pages/productosyservicios.html">
+                            <img class="card-img-top seccion-img" src="https://i.ibb.co/Vw55ZWC/encordado.jpg" alt="Servicios de encordados" title="Servicios de encordados" loading="lazy">
+                        </a>
+                        <div class="card-body p-4">
+                            <h5 class="mb-3">Servicios</h5>
+                            <p class="fs-6 mb-0 justify">Contamos con el mejor servicio de encordado de la ciudad, realizado con encordadora digital. Además podes consultarnos <a href="pages/contacto.html" class="text-dark text-decoration-none">aquí </a>para tomar clases particulares de tenis.</p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0 efecto">
+                        <a href="pages/promociones.html">
+                            <img class="card-img-top seccion-img" src="https://i.ibb.co/GsMBHsQ/sale.png" alt="Promociones" title="Promociones" loading="lazy">
+                        </a>
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <h5 class="mb-3">Promociones</h5>
+                                <span class="badge bg-warning bg-gradient rounded-pill mb-3 mx-2 wow animate__animated animate__heartBeat">NUEVO</span>
+                            </div>
+                            <p class="fs-6 mb-0 justify">Ingresá aquí para encontrar los productos que estan en promoción.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de secciones -->
+    <!-- Inicio de publicidad -->
+    <aside class="py-3 wow animate__animated animate__bounceIn">
+        <div class="container px-5 my-3">
+            <div class="bg-primary rounded-3 p-4 p-sm-4 mt-3">
+                <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                    <div class="ms-xl-4">
+                        <div class="input-group mb-2 seccion-thumbnail">
+                            <a href="https://www.facebook.com/graficatamagnone/?ref=p   age_internal">
+                                <img src="https://i.ibb.co/FbbSQHd/graficatamagnone.jpg" alt="Logo Gráfica Tamagonone" title="Gráfica Tamagnone" class="seccion-img" loading="lazy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-white mb-4 mx-5 mb-xl-0">
+                        <p class="fs-5 fw-bold mb-3 justify">Somos una imprenta familiar con mas de 30 años en el rubro y contamos con maquinaria offset y digital de última generacion.</p>
+                        <p class="fs-6 fw-bold mb-3 text-center">COPIAS LASER FULL COLOR - REVISTAS - LIBROS - FOLLETOS</p>
+                        <p class="fs-6 justify">Realizá tu consulta para mayor información y precios via mail a graficatamagnone@gmail.com o llamanos al telefono 801 654 8492</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- Fin de publicidad --> 
+    <!-- Inicio de pie de página -->
+    <footer class="text-center text-lg-start bg-light color-text">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block align-self-center">
+                <span>Visítanos en nuestras redes sociales:</span>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/carlosbojana" class="me-4 text-reset fs-2"><i class="fab fa-facebook-square footer-logos"></i></a>
+                <a href="https://www.instagram.com/carlosbojana/" class="me-4 text-reset fs-2"><i class="fab fa-instagram-square footer-logos"></i></a>
+            </div>
+        </section>
+        <section class="container text-center text-md-start mt-4">
+            <div class="row mt-3">
+                <div class="col-md-4 col-lg-5 col-xl-4 mx-auto mb-3">
+                    <h6 class="text-uppercase fw-bold mb-4">Información</h6>
+                    <p><i class="fas fa-home me-3"></i> 14584 S Siltstone Rd, Herriman, UT 84096</p>
+                    <p><i class="fas fa-phone me-3"></i> +1 801 635 8879</p>
+                    <p><i class="fas fa-truck me-3"></i></i> Envíos a todo el país</p>
+                </div>
+                <div class="col-md-4 col-lg-2 col-xl-4 mx-auto mb-3 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d337.3983750263822!2d-64.11561428800029!3d-32.17774193600193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd6f24cc9b6e75%3A0xf31e908957e0133!2zUsOtbyBUZXJjZXJvLCBDw7NyZG9iYQ!5e1!3m2!1ses-419!2sar!4v1622466747814!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" class="footer-map img-thumbnail"></iframe>
+                </div>
+                <div class="col-md-4 col-lg-5 col-xl-4 mx-auto mb-md-0 mb-3">
+                    <h6 class="text-uppercase fw-bold mb-4">Medios de Pago</h6>
+                    <p><i class="fas fa-money-bill-alt me-3"></i> Efectivo</p>
+                    <p><i class="fas fa-credit-card me-3"></i> Tarjetas de Crédito y Débito</p>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            2022 &#169; TenisLab. Todos los derechos reservados.
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=+5493571685401&text=Hola!%20Hacenos%20tu%20consulta%20y%20a%20la%20brevedad%20te%20contactamos!" class="float" target="_blank">
+                <i class="fab fa-whatsapp my-float"></i>
+        </a>
+    </footer>
+    <!-- Fin de pie de página -->
+    <!-- Botón ir arriba -->
+    <a class="go-top-btn rounded" href="#go-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- WOW.js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <!-- JS Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* Propiedades del formulario*/
+section {
+    .form-control:focus, .form-check-input:focus, .form-check-input:checked {
+	border-color: $form-color;
+	box-shadow: 0 0px 0px $form-color inset, 0 0 5px $form-color;
+    }
+    .bg-primary {
+        background-color: $bg-color !important;
+    }
+    .form-control {
+        resize: none;
+    }
+}

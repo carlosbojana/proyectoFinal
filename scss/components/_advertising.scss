@@ -1,0 +1,21 @@
+/* Propiedades de publicidad */
+aside {
+    .bg-primary {
+        background-color: $bg-color !important;
+    }
+    .justify {
+        text-align: justify;
+    }
+    .seccion-thumbnail {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .seccion-img {
+        width: 100%;
+        height: 100%;
+        z-index:1;
+        filter:alpha(opacity=100);
+    }
+}
